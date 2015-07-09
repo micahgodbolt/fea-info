@@ -56,6 +56,13 @@ body {
     font-size: 1.8em; }
   .book-description {
     font-size: 1.2em; }
+  .book-chapter-link {
+    display: block;
+    text-decoration: none;
+    color: #00A9A6;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4); }
 
 .contact-email a {
   display: block;
@@ -63,7 +70,7 @@ body {
   color: #00A9A6;
   font-size: 1.2em;
   margin-bottom: .5em;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2); }
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4); }
 
 .contact-twitter a {
   display: block;
@@ -71,4 +78,4 @@ body {
   color: #00A9A6;
   font-size: 1.2em;
   margin-bottom: .5em;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2); }
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4); }

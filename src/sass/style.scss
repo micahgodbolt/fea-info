@@ -70,6 +70,14 @@ body {
   &-description {
     font-size: 1.2em;
   }
+  &-chapter-link {
+    display: block;
+    text-decoration: none;
+    color: $green;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    text-shadow: 1px 1px 1px rgba(255,255,255,.4);
+  }
 }
 
 .contact {
@@ -79,7 +87,7 @@ body {
     color: $green;
     font-size: 1.2em;
     margin-bottom: .5em;
-    text-shadow: 1px 1px 1px rgba(255,255,255,.2);
+    text-shadow: 1px 1px 1px rgba(255,255,255,.4);
   }
   &-twitter a{
     display: block;
@@ -87,6 +95,6 @@ body {
     color: $green;
     font-size: 1.2em;
     margin-bottom: .5em;
-    text-shadow: 1px 1px 1px rgba(255,255,255,.2);
+    text-shadow: 1px 1px 1px rgba(255,255,255,.4);
   }
 }
