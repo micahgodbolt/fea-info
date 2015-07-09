@@ -1,0 +1,74 @@
+body {
+  background: url(../../img/bg.png) #dedede;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #333; }
+
+.book {
+  margin: 4em auto 0;
+  max-width: 48em; }
+  .book-cover {
+    margin-bottom: 2em; }
+    @media (min-width: 600px) {
+      .book-cover {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; } }
+  .book-image-wrapper {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    margin-right: 3%;
+    margin-bottom: 2em; }
+  .book-image {
+    width: 100%;
+    height: auto;
+    display: block; }
+  .book-meta {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%; }
+  .book-available {
+    font-size: 1.5em;
+    margin-bottom: .4em; }
+  .book-price {
+    font-style: italic;
+    margin-bottom: .4em; }
+  .book-purchase {
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+    background: #00A9A6;
+    color: white;
+    padding: 0.3em 0.5em;
+    margin-bottom: 1em;
+    text-decoration: none; }
+    .book-purchase:hover {
+      background: white;
+      color: #00A9A6; }
+  .book-title {
+    text-transform: uppercase;
+    margin: 0 0 0.1em;
+    font-size: 2.2em; }
+  .book-subtitle {
+    margin: 0 0 0.1em;
+    font-size: 1.8em; }
+  .book-description {
+    font-size: 1.2em; }
+
+.contact-email a {
+  display: block;
+  text-decoration: none;
+  color: #00A9A6;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2); }
+
+.contact-twitter a {
+  display: block;
+  text-decoration: none;
+  color: #00A9A6;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2); }
